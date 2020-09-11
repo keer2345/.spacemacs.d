@@ -488,9 +488,7 @@ If you are unsure, try setting them in `dotspacemacs/user-config' first."
         ("org-cn"   . "http://elpa.emacs-china.org/org/")
         ("gnu-cn"   . "http://elpa.emacs-china.org/gnu/")))
 
-(setq custom-file (concat (getenv "HOME") "/.spacemacs.d/custom.el"))
-
-  )
+(setq custom-file (concat (getenv "HOME") "/.spacemacs.d/custom.el")))
 
 (defun dotspacemacs/user-load ()
   "Library to load while dumping.
